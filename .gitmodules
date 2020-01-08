@@ -1,0 +1,3 @@
+[submodule "VINS-Fusion"]
+	path = VINS-Fusion
+	url = https://github.com/HKUST-Aerial-Robotics/VINS-Fusion.git
