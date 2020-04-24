@@ -21,9 +21,10 @@ rosrun vins vins_node /home/swarm/catkin_ws/src/Vins-Fusion-Jackal/acl_vins_rish
 ```
 
 By default, this configuration file runs vins-mono (worked better than using both images), and expects the following data from the following topics:
+```
 imu topic: "/camera_d435i/imu"
 image topic: "/camera_d435i/infra1/image_rect_raw"
-
+```
 The vins node should now output that it is waiting for data. 
 
 
