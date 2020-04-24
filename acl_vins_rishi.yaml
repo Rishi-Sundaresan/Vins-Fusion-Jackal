@@ -5,9 +5,9 @@
 imu: 1         
 num_of_cam: 1  
 
-imu_topic: "/camera/imu"
-image0_topic: "/camera/infra1/image_rect_raw"
-image1_topic: "/camera/infra2/image_rect_raw"
+imu_topic: "/camera_d435i/imu"
+image0_topic: "/camera_d435i/infra1/image_rect_raw"
+image1_topic: "/camera_d435i/infra2/image_rect_raw"
 output_path: "/home/dji/output/"
 
 # imu_topic: "/camera_d435i/imu"
@@ -77,7 +77,7 @@ gyr_w: 0.0001       # gyroscope bias random work noise standard deviation.     #
 g_norm: 9.805         # gravity magnitude
 
 #unsynchronization parameters
-estimate_td: 1                      # online estimate time offset between camera and imu
+estimate_td: 0                      # online estimate time offset between camera and imu
 td:  0.021006                             # initial value of time offset. unit: s. readed image clock + td = real image clock (IMU clock)
 
 #loop closure parameters
